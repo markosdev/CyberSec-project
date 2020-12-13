@@ -1,4 +1,3 @@
-/* This is for hole body of website */
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +7,6 @@ body {
   background-color: #f9f9f9;
 }
 
-/* PRE-HEADER SECTION STARTING HERE */
-
-/* This means that head have color and 
-   height and color of letts */
 .pre-header {
   background-color: #111618;
   height: 60px;
@@ -19,40 +14,20 @@ body {
   padding-top: 16px;
 }
 
-/* In class pre-header we have main-menu section
-   which contains <ul> list and their list style
-   is none (so that means we don't need
-   decoration of <ul> list) */
 .pre-header .secondary-menu {
   list-style-type: none;
 }
 
-/* Here we have classes in line from pre-header to 
-   secondary-menu and <li> element. This css means that
-   <li> list need to be horizontally (inline-block) and 
-   space between section is 15px */
 .pre-header .secondary-menu li {
   display: inline-block;
   margin-left: 15px;
 }
 
-/* Here we have classes in line from pre-header to 
-   secondary-menu and <li> element as well <a> element 
-   This css code means that we have Grey color of our 
-   list section and all letters must be UPPERCASE */
 .pre-header .secondary-menu li a {
   color: #787374;
   text-transform: uppercase;
 }
-/* PRE-HEADER SECTION ENDING HERE */
 
-/* MAIN-NAV SECTION STARTING HERE */
-
-/* This is the main-nav for section header and inside 
-   we have main-menu. So this css code means that style 
-   of text don't needed decoration (none) and we have 
-   a 20px margin-top so that means 20px from the top 
-   and all font is bold */
 .main-nav .main-menu {
   list-style-type: none;
   margin-top: 20px;
@@ -87,46 +62,37 @@ body {
   margin-top: 10px;
 }
 
-/* HERO-SECTION STARTING HERE */
-
-/* Here we have her-section and this css code means 
-   that we have image with 115px from the top and the
-   bottom and background style is cover that means 
-   image must fit to the screen */
 .hero-section {
-  background-image: url("../images/photo.jpg"); /* css code for image posting */
-  padding-top: 115px; /* css code for adjust pixels between top and object */
-  padding-bottom: 115px; /* css code for adjust pixels between bottom and object */
+  background-image: url("../images/photo.jpg"); 
+  padding-top: 115px; 
+  padding-bottom: 115px; 
   background-size: cover;
 }
 
 .hero-section h1 {
   color: #ffffff;
-  text-transform: uppercase; /* css code for all letters to Uppercase */
-  font-size: 65px; /* css code for adjust font */
-  margin-bottom: 20px; /* css code for moving object to the bottom */
+  text-transform: uppercase; 
+  font-size: 65px; 
+  margin-bottom: 20px; 
 }
 
 .hero-section p {
   color: #ffffff;
   font-size: 18px;
-  font-weight: bold; /* css code for font letters to be bold */
+  font-weight: bold; 
   margin-bottom: 20px;
 }
 
 .hero-section a {
   background-color: #4f33f1;
-  border: 1px solid #4f33f1; /* css code to make a border like was for button 1px thin, solid (thick line) and color purple */
+  border: 1px solid #4f33f1; 
   text-transform: uppercase;
-  padding: 10px; /* css code for adjust 10px to all sides */
+  padding: 10px; 
   color: #ffffff;
-  transition: 0.2s; /* css code for trasnstion (means that when we go over button with mouse the color will change or be transparent */
-  display: inline-block; /* css code for adjust list section to be in one line */
+  transition: 0.2s; 
+  display: inline-block; 
   font-weight: bold;
 }
-/* HERO-SECTION ENDING HERE */
-
-/* OUR-SERVICES-SECTION STARTING HERE */
 
 .services-section {
   padding-top: 100px;
@@ -286,7 +252,6 @@ body {
   background-color: #fff;
 }
 
-/* ABOUT-SECTION START HERE */
 .about-section {
   background-image: url("../images/about.jpg");
   color: #fff;
@@ -556,7 +521,6 @@ body {
   left: -25px;
 }
 
-/* PROFITS-SECTION STARTING HERE */
 .profits-section {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -593,8 +557,6 @@ body {
   bottom: -241px;
 }
 
-
-/* FOOTER STARTING HERE */
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
